@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    .card{
+        transition: all 0.5s;
+    }
+    .card:hover{
+        transform: translate(10px,-10px);
+        box-shadow: 2px 2px 20px  black;
+        transition: all 0.5s;
+    }
+    
+</style>
+
+<body class="bg-silver">
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand font-char1" href="/index.html">i/Q"zsoy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title font-char" id="offcanvasDarkNavbarLabel">i/Q"zsoy Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/trainings.html">Trainings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                        <div class="btn btn-group">
+                            <a class="btn btn-info" href="enroll.html">Enroll </a>
+                            <a class="btn btn-success" href="enroll.html">Send</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main-->
+    <div class="container my-5">
+        <div class="row border rounded-3 shadow-lg p-4">
+            <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+                <h1 class="fw-bold text-capitalize  text-center">Lorem ipsum dolor sit amet</h1>
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quasi fuga atque blanditiis non excepturi harum alias perspiciatis
+                    ipsum ipsam similique. Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center">
+                <img class="rounded-3 w-100" src="https://picsum.photos/600" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="row justify-content-center gap-5 my-5">
+        <!-- Card Start -->
+        <div class="card d-flex align-items-center " style="width: 18rem;">
+            <div class="card-head d-flex align-items-center  " style="width: 200px">
+                <img src="https://picsum.photos/160" class="card-img-top mt-5" alt="...">
+            </div>
+            <div class="card-body  d-flex flex-column justify-content-between">
+                <h5 class="card-title text-center">Frond End</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur nesciunt architecto, facilis amet ipsum assumenda totam.
+                    Rem quasi reiciendis quam sit cupiditate explicabo ipsum?</p>
+                <a href="#" class="btn btn-primary mx-5">Information</a>
+            </div>
+        </div>
+        <!-- Card End -->
+
+        <!-- Card Start -->
+        <div class="card d-flex align-items-center " style="width: 18rem;">
+            <div class="card-head d-flex align-items-center  " style="width:200px">
+                <img src="https://picsum.photos/150" class="card-img-top mt-5" alt="...">
+            </div>
+            <div class="card-body  d-flex flex-column justify-content-between">
+                <h5 class="card-title text-center">Quality Assuarance</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi.
+                    Consectetur illum est quos at velit molestiae, dolorem aliquam.
+                    Unde nobis provident, totam voluptatum sunt vitae iste aperiam.</p>
+                <a href="#" class="btn btn-primary mx-5">Information</a>
+            </div>
+        </div>
+        <!-- Card End -->
+
+        <!-- Card Start -->
+        <div class="card d-flex align-items-center " style="width: 18rem;">
+            <div class="card-head d-flex align-items-center  " style="width:200px">
+                <img src="https://picsum.photos/170" class="card-img-top mt-5" alt="...">
+            </div>
+            <div class="card-body  d-flex flex-column justify-content-between">
+                <h5 class="card-title text-center">React Native</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, beatae?
+                    Quas dicta debitis reiciendis officiis ipsam culpa ex aliquid esse.
+                    Non, consequatur quos! Exercitationem ut quia sit expedita officia aliquid!</p>
+                <a href="#" class="btn btn-primary mx-5">Information</a>
+            </div>
+        </div>
+    </div>
+    <!-- Card End -->
+
+
+    <!-- What is Our Aim?-->
+    <div class="container bg-black text-light rounded shadow">
+        <div class="row text-center py-4">
+            <h1>What is Our Aim?</h1>
+        </div>
+        <!-- Column -->
+        <div class="row gap-2 justify-content-between p-4 text-center">
+            <div class="col border p-3 bg-secondary rounded">
+                <h1 class="text-warning">Factual</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. In.
+                    Eius culpa veniam ipsum dolores deleniti quos, adipisci vitae?
+                    Soluta, enim doloribus unde ex nostrum dignissimos blanditiis ab?
+                    Omnis provident esse ab unde excepturi! Iste, harum perspiciatis?</p>
+            </div>
+            <!-- Column -->
+            <div class="col border p-3 bg-secondary rounded">
+                <h1 class="text-warning">Basic Skills</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, natus.
+                    Non iure aperiam quidem consequatur officia iusto distinctio suscipit illum.
+                    Culpa porro error pariatur, tempora eaque repudiandae sed dicta debitis?
+                    Numquam esse sapiente hic eum sed labore mollitia facilis aliquam!</p>
+            </div>
+            <!-- Column -->
+            <div class="col border p-3 bg-secondary rounded">
+                <h1 class="text-warning">Needs</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Voluptate impedit aspernatur commodi aut dolorem sed officiis?
+                    Quidem temporibus quam blanditiis deserunt animi alias iure?
+                    Necessitatibus repudiandae debitis ut sed explicabo id culpa?</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p class="text-center">© 2022 Company, <span class="font-char bg-secondary rounded">i/Q"zsoy.</span> All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <i class="fa-brands fa-facebook p-3"></i>
+                    <i class="fa-brands fa-instagram p-3"></i>
+                    <i class="fa-brands fa-twitter p-3"></i>
+                    
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/fb13dee1c8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
